@@ -15,7 +15,7 @@ def main():
         avg += float(row[2])
         avg_min += float(row[3])
         avg_max += float(row[4])
-
+    print(count)
     print("*** Annual Temperature Report for Seoul in 2022 ***")
     print("Average Temperature: %.2f" % (avg / count), "Celsius")
     print("Average Minimum Temperature: %.2f" % (avg_min / count), "Celsius")

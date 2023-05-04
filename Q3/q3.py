@@ -34,6 +34,8 @@ def main():
             psg[8] += int(row[4])
             psg[8] += int(row[5])
 
+    print("*** Subway Report for Seoul on March 2023 ***")
+    
     max_psg = 0
     max_psg_idx = 0
     for i in range(9):

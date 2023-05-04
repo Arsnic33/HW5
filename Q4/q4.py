@@ -33,7 +33,7 @@ def main():
             if line2[3] == 0:
                 line2[3] = psg
                 line2[2] = row[3]
-            elif psg < line1[3]:
+            elif psg < line2[3]:
                 line2[3] = psg
                 line2[2] = row[3]
         elif (row[1] == '3호선'):
@@ -62,7 +62,7 @@ def main():
             elif psg < line4[3]:
                 line4[3] = psg
                 line4[2] = row[3]
-
+    print("*** Subway Report for Seoul on March 2023 ***")
     for i in range(4):
         print ("Line %d:" %(i+1))
         if (i == 0):
